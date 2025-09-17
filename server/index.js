@@ -16,7 +16,7 @@ const app = express();
 app.use(express.json());
 const allowedOrigins = [
   "http://localhost:3000",
-//   "https://college-quiz-web.vercel.app"
+  "https://timetable-beryl-ten.vercel.app"
 ];
 
 app.use(cors({
